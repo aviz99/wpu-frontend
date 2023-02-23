@@ -1,0 +1,43 @@
+/* Position Absolute */
+/* Ketika kita menggerakkan elemen dengan posisi absolute (menggunakan top,left,bottom dan right), ruang yang ditempati oleh elemen tsb dianggap tidak ada */
+/* Ketika kita mengerakkan elemen dengan posisi absolute, elemen akan bergerak relatif terhadap posisi dari elemen parent-nya, selama elemen parent-nya memiliki posisi yang juga non-static */
+/* Jika kita memberi properti top: 0; dan left: 0; maka elemen akan berada di ujung kiri atas dari elemen parent-nya */
+
+/* Position Fixed */
+/* Jika kita memberi properti top, left, bottom, right maka dia akan selalu bergerak relatif terhadap window browser jadi dia tidak akan mempedulikan elemen parent-nya meskipun parent-nya non-static */
+/* Ketika kita scroll halamannya elemen tersebut akan terkunci di posisi itu  */
+/* Position Fixed biasa digunakan untuk membuat topbar navigasi */
+
+body {
+	height: 2000px;
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.satu {
+	background-color: crimson;
+}
+
+.dua {
+	background-color: cyan;
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	top: 0;
+	right: 0;
+}
+
+.tiga {
+	background-color: chartreuse;
+}
+
+.container {
+	width: 600px;
+	height: 650px;
+	border: 10px solid green;
+	position: relative;
+}

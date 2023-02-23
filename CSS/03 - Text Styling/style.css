@@ -1,0 +1,12 @@
+h1 {
+  color: #d2691e;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: darkolivegreen;
+  text-align: justify;
+  text-indent: 30px;
+  word-spacing: 5px;
+}

@@ -1,0 +1,13 @@
+/* Lebar nya harus sesuai dengan container nya (elemen pembungkus) */
+
+.container {
+	width: 600px;
+	border: 1px solid black;
+	margin: auto;
+	padding: 5px;
+}
+
+img {
+	float: right;
+	margin: 5px;
+}

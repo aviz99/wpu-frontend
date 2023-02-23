@@ -1,0 +1,56 @@
+/* Padding */
+
+/* Padding Shorthand Nilai Pertama untuk atas dan bawah dan Nilai Kedua untuk kiri dan kanan
+untuk dua nilai */
+/* Padding: NilaiTop&NilaiBottom NilaiLeft&NilaiRight; */
+
+/* Padding Shorthand Nilai Pertama untuk atas, Nilai Kedua untuk kiri dan kanan
+dan Nilai Ketiga untuk bawah untuk tiga nilai */
+/* Padding: NilaiTop NilaiRight&NilaiLeft NilaiBottom; */
+
+/* Padding */
+/* Area transparan di dalam kotak (antara content dan border) */
+/* Padding Shorthand Nilai Pertama untuk atas, Nilai Kedua untuk kanan,
+Nilai Ketiga untuk bawah dan Nilai Keempat untuk kiri untuk empat nilai */
+/* Padding: NilaiTop NilaiRight NilaiBottom NilaiLeft; */
+
+/* Disclaimer */
+/* Padding tidak bisa diberi nilai negatif */
+/* Padding tidak punya memiliki nilai auto */
+/* Padding mempengaruhi menambah ukuran elemen atau box tertentu */
+
+/* Border */
+/* Batas yang dikelilingi oleh content dan padding */
+/* Ada 3 nilai yang bisa ditulis */
+/* border: TebalDariBordernya(width) Stylenya(solid,dotted,dashed,double) WarnaBordernya(nama warna,nilai heksa dan nilai rgb) */
+/* Border juga mempengaruhi menambah ukuran elemen */
+
+/* Total Dimensi = Width/Height + Padding + Border */
+
+/* div {
+	width: 190px;
+	height: 190px;
+	background-color: salmon;
+	margin: 20px auto;
+	padding: 50px;
+	border: 5px solid navy;
+} */
+
+/* Box-Sizing */
+div {
+	width: 600px;
+	margin: 10px auto;
+	box-sizing: border-box;
+}
+
+.satu {
+	background-color: aqua;
+	padding: 10px;
+	border: 15px solid yellow;
+}
+
+.dua {
+	background-color: lime;
+	padding: 30px;
+	border: 10px dashed red;
+}

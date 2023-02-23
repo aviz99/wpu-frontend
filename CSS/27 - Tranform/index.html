@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Transform</title>
+	<style>
+/* Transform */
+/* Properti transform memungkinkan kita dapat memanipulasi format visual dari eleman HTML bisa ukuran, bentuk dari elemennya dan posisinya */
+/* Bentuk Transformasi ada 2D dan 3D */
+/* Nilai dari trasnform : transform : <fungsinya>(scale:memperbesar/memperkecil),(rotate:memutar),(skew:membuat condong miring),(translate:mengubah posisi); */
+		p {
+			font-size: 20px;
+			text-align: center;
+		}
+
+		.kotak {
+			width: 200px;
+			height: 200px;
+			background-color: lightblue;
+			margin: 50px auto;
+			transition: 1s;
+		}
+
+		.kotak:hover {
+			transform: scale(3) rotate(360deg);
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="kotak"></div>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, libero. Quisquam expedita neque quas eligendi omnis harum nihil nisi temporibus dicta velit similique, perferendis sapiente at. Illum commodi, sapiente illo.</p>
+
+</body>
+</html>

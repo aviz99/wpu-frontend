@@ -1,0 +1,50 @@
+/* Margin */
+/* Area transparan di luar kotak (diluar border) */
+
+/* Nilai Margin : margin, margin-top, margin-right, margin-bottom, margin-left */
+
+/* Overlapping Margin adalah ketika kita menggabungkan 2 buah margin biasa nya kiri dan kanan atau atas dan bawah */
+/* Margin tidak bisa ditambahkan jika posisi 2 margin tersebut berada divertikal (atas-bawah dan bawah-atas) tetapi dia akan mengambil nilai yang paling besar jika kedua nilai nya salah satu nya ada yang paling besar*/
+/* Margin yang horizontal (kiri-kanan dan kanan-kiri) akan dijumlahkan oleh 2 nilai margin */
+/* berlaku pada inline dan inline-block */
+
+/* Negatif Margin */
+/* Negatif Margin akan membuat kotak nya atau nilai nya akan berlawanan arah */
+/* Kalo kalian kasih margin-top maka elemen yang dibawahnya akan ikut terbawa keatas*/
+
+/* Nilai dari properti khusus Auto adalah nilai yang bisa diberikan oleh margin-left dan margin-right saja */
+/* Nilai auto jika diberikan ke margin-left dan margin-right maka akan berada di tengah-tengah posisi browsernya */
+/* Nilai auto harus diberikan kedua margin-left dan margin-right tidak boleh salah satu */
+
+/* Margin  */
+
+/* Margin Shorthand Nilai Pertama untuk atas dan bawah dan Nilai Kedua untuk kiri dan kanan
+untuk dua nilai */
+/* margin: NilaiTop&NilaiBottom NilaiLeft&NilaiRight; */
+
+/* Margin Shorthand Nilai Pertama untuk atas, Nilai Kedua untuk kiri dan kanan
+dan Nilai Ketiga untuk bawah untuk tiga nilai */
+/* margin: NilaiTop NilaiRight&NilaiLeft NilaiBottom; */
+
+/* Margin Shorthand Nilai Pertama untuk atas, Nilai Kedua untuk kanan,
+Nilai Ketiga untuk bawah dan Nilai Keempat untuk kiri untuk empat nilai */
+/* margin: NilaiTop NilaiRight NilaiBottom NilaiLeft; */
+
+.satu {
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	margin: 10px 20px 30px 40px;
+}
+
+.dua {
+	width: 100px;
+	height: 100px;
+	background-color: lightskyblue;
+}
+
+.tiga {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+}

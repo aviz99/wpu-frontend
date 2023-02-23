@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Transition</title>
+	<style>
+/* Nilai dari transition : properti durasi(s/ms) fungsi delay */
+/* Simpan transisi nya selalu di keadaan awal */
+
+/* Nilai properti dari transition : all, (nama properti), none) */
+
+/* Properti yang bisa gunakan transition */
+/* background-color, background-position, background-size, border, color, filter, font-size, line-height, top left bottom right, margin padding, width height, opacity, transform, word-spacing, line-spacing */
+
+/* Properti yang tidak bisa gunakan transition */
+/* font-family, display, position */
+
+/* Fungsi Transisi / Timing Function */
+/* Nilai dari Timing Function / Fungsi Transisi */
+/* ease, ease-in, ease-out, ease-in-out, linear, cubic-bezier(w,x,y,z) */
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			width: 900px;
+			margin: 10px auto;
+			border: 5px solid black;
+		}
+
+		.kotak {
+			width: 100px;
+			height: 100px;
+			background-color: crimson;
+			text-align: center;
+			line-height: 100px;
+			margin: 5px 0;
+			transition: 1s 2s;
+		}
+
+		.container:hover .kotak {
+			transform: translate(1px);
+			margin-left: 800px;
+			background-color: gold;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="kotak"></div>
+	</div>
+
+</body>
+</html>

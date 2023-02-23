@@ -1,0 +1,29 @@
+/* z-index */
+/* digunakan untuk mengatur tumpukan dari elemen ketika kita memberikan elemen yang non-static */
+/* yang bisa digunakan oleh z-index adalah elemen non-static */
+/* contoh elemen non-static : relative, absolute, fixed */
+/* Sumbu Z pada z-index diawali dengan antar dimensi */
+
+div {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.satu {
+	background-color: violet;
+	z-index: 1;
+}
+
+.dua {
+	background-color: navy;
+	top: 100px;
+	left: 100px;
+	z-index: 2;
+}
+
+.tiga {
+	background-color: green;
+	top: 200px;
+	left: 200px;
+}
